@@ -1,0 +1,10 @@
+python-dotenv
+pandas
+numpy
+pymongo
+certifi
+scikit-learn
+google-cloud-storage
+pyyaml
+mlflow
+dagshub 

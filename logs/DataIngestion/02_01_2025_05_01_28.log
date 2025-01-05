@@ -1,0 +1,8 @@
+[ 2025-01-02 05:01:34,966 ] 61 networksecurity.logging.logger - INFO - Performed train test split on the dataframe
+[ 2025-01-02 05:01:34,966 ] 63 networksecurity.logging.logger - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-01-02 05:01:34,966 ] 69 networksecurity.logging.logger - INFO - Exporting train and test file path.
+[ 2025-01-02 05:01:35,009 ] 75 networksecurity.logging.logger - INFO - Exported train and test file path.
+[ 2025-01-02 05:01:35,048 ] 37 networksecurity.logging.logger - INFO - Required number of columns:2
+[ 2025-01-02 05:01:35,048 ] 38 networksecurity.logging.logger - INFO - Data frame has columns:31
+[ 2025-01-02 05:01:35,050 ] 37 networksecurity.logging.logger - INFO - Required number of columns:2
+[ 2025-01-02 05:01:35,050 ] 38 networksecurity.logging.logger - INFO - Data frame has columns:31
