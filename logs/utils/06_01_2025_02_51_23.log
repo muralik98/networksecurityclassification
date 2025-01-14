@@ -1,0 +1,6 @@
+[ 2025-01-06 02:51:28,231 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-06 02:51:28,238 ] 107 dagshub - INFO - Accessing as muralik98
+[ 2025-01-06 02:51:28,610 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/muralik98/networksecurityclassification "HTTP/1.1 200 OK"
+[ 2025-01-06 02:51:28,946 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-06 02:51:28,949 ] 107 dagshub - INFO - Initialized MLflow to track repo "muralik98/networksecurityclassification"
+[ 2025-01-06 02:51:28,951 ] 107 dagshub - INFO - Repository muralik98/networksecurityclassification initialized!

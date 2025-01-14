@@ -1,0 +1,15 @@
+[ 2025-01-06 01:44:20,079 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-06 01:44:20,084 ] 107 dagshub - INFO - Accessing as muralik98
+[ 2025-01-06 01:44:20,464 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/muralik98/networksecurityclassification "HTTP/1.1 200 OK"
+[ 2025-01-06 01:44:20,838 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-06 01:44:20,841 ] 107 dagshub - INFO - Initialized MLflow to track repo "muralik98/networksecurityclassification"
+[ 2025-01-06 01:44:20,844 ] 107 dagshub - INFO - Repository muralik98/networksecurityclassification initialized!
+[ 2025-01-06 01:44:27,206 ] 61 networksecurity.logging.logger - INFO - Performed train test split on the dataframe
+[ 2025-01-06 01:44:27,206 ] 63 networksecurity.logging.logger - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-01-06 01:44:27,207 ] 69 networksecurity.logging.logger - INFO - Exporting train and test file path.
+[ 2025-01-06 01:44:27,244 ] 75 networksecurity.logging.logger - INFO - Exported train and test file path.
+[ 2025-01-06 01:44:27,377 ] 37 networksecurity.logging.logger - INFO - Required number of columns:2
+[ 2025-01-06 01:44:27,377 ] 38 networksecurity.logging.logger - INFO - Data frame has columns:31
+[ 2025-01-06 01:44:27,377 ] 37 networksecurity.logging.logger - INFO - Required number of columns:2
+[ 2025-01-06 01:44:27,377 ] 38 networksecurity.logging.logger - INFO - Data frame has columns:31
+[ 2025-01-06 01:44:27,476 ] 47 networksecurity.logging.logger - INFO - Data Transformation Initiated

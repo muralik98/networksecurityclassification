@@ -1,0 +1,24 @@
+[ 2025-01-06 03:15:56,804 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-06 03:15:56,808 ] 107 dagshub - INFO - Accessing as muralik98
+[ 2025-01-06 03:15:57,212 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/muralik98/networksecurityclassification "HTTP/1.1 200 OK"
+[ 2025-01-06 03:15:57,559 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-06 03:15:57,561 ] 107 dagshub - INFO - Initialized MLflow to track repo "muralik98/networksecurityclassification"
+[ 2025-01-06 03:15:57,563 ] 107 dagshub - INFO - Repository muralik98/networksecurityclassification initialized!
+[ 2025-01-06 03:16:10,157 ] 42 root - INFO - Start data Ingestion
+[ 2025-01-06 03:16:16,367 ] 61 networksecurity.logging.logger - INFO - Performed train test split on the dataframe
+[ 2025-01-06 03:16:16,367 ] 63 networksecurity.logging.logger - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-01-06 03:16:16,368 ] 69 networksecurity.logging.logger - INFO - Exporting train and test file path.
+[ 2025-01-06 03:16:16,409 ] 75 networksecurity.logging.logger - INFO - Exported train and test file path.
+[ 2025-01-06 03:16:16,409 ] 45 root - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='Artifacts\\01_06_2025_03_15_54\\data_ingestion\\ingested\\train.csv', test_file_path='Artifacts\\01_06_2025_03_15_54\\data_ingestion\\ingested\\test.csv')
+[ 2025-01-06 03:16:16,415 ] 55 root - INFO - Initiate the data Validation
+[ 2025-01-06 03:16:16,480 ] 37 networksecurity.logging.logger - INFO - Required number of columns:2
+[ 2025-01-06 03:16:16,481 ] 38 networksecurity.logging.logger - INFO - Data frame has columns:31
+[ 2025-01-06 03:16:16,481 ] 37 networksecurity.logging.logger - INFO - Required number of columns:2
+[ 2025-01-06 03:16:16,481 ] 38 networksecurity.logging.logger - INFO - Data frame has columns:31
+[ 2025-01-06 03:16:16,582 ] 47 networksecurity.logging.logger - INFO - Data Transformation Initiated
+[ 2025-01-06 03:16:16,598 ] 35 networksecurity.logging.logger - INFO - Performing get_data_transformer_objects
+[ 2025-01-06 03:16:16,598 ] 39 networksecurity.logging.logger - INFO - KNN Inputer Initialized with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-01-06 03:16:16,614 ] 45 networksecurity.logging.logger - INFO - code_utils save_object
+[ 2025-01-06 03:16:16,616 ] 50 networksecurity.logging.logger - INFO - save_object: File Saved in Pickle Format
+[ 2025-01-06 03:16:16,616 ] 45 networksecurity.logging.logger - INFO - code_utils save_object
+[ 2025-01-06 03:16:16,619 ] 50 networksecurity.logging.logger - INFO - save_object: File Saved in Pickle Format

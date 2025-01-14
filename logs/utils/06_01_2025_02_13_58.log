@@ -1,0 +1,21 @@
+[ 2025-01-06 02:14:03,016 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-06 02:14:03,023 ] 107 dagshub - INFO - Accessing as muralik98
+[ 2025-01-06 02:14:03,394 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/muralik98/networksecurityclassification "HTTP/1.1 200 OK"
+[ 2025-01-06 02:14:03,739 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-01-06 02:14:03,744 ] 107 dagshub - INFO - Initialized MLflow to track repo "muralik98/networksecurityclassification"
+[ 2025-01-06 02:14:03,748 ] 107 dagshub - INFO - Repository muralik98/networksecurityclassification initialized!
+[ 2025-01-06 02:14:10,054 ] 61 networksecurity.logging.logger - INFO - Performed train test split on the dataframe
+[ 2025-01-06 02:14:10,055 ] 63 networksecurity.logging.logger - INFO - Exited split_data_as_train_test method of Data_Ingestion class
+[ 2025-01-06 02:14:10,055 ] 69 networksecurity.logging.logger - INFO - Exporting train and test file path.
+[ 2025-01-06 02:14:10,092 ] 75 networksecurity.logging.logger - INFO - Exported train and test file path.
+[ 2025-01-06 02:14:10,152 ] 37 networksecurity.logging.logger - INFO - Required number of columns:2
+[ 2025-01-06 02:14:10,153 ] 38 networksecurity.logging.logger - INFO - Data frame has columns:31
+[ 2025-01-06 02:14:10,153 ] 37 networksecurity.logging.logger - INFO - Required number of columns:2
+[ 2025-01-06 02:14:10,153 ] 38 networksecurity.logging.logger - INFO - Data frame has columns:31
+[ 2025-01-06 02:14:10,254 ] 47 networksecurity.logging.logger - INFO - Data Transformation Initiated
+[ 2025-01-06 02:14:10,269 ] 35 networksecurity.logging.logger - INFO - Performing get_data_transformer_objects
+[ 2025-01-06 02:14:10,269 ] 39 networksecurity.logging.logger - INFO - KNN Inputer Initialized with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[ 2025-01-06 02:14:10,281 ] 45 networksecurity.logging.logger - INFO - code_utils save_object
+[ 2025-01-06 02:14:10,283 ] 50 networksecurity.logging.logger - INFO - save_object: File Saved in Pickle Format
+[ 2025-01-06 02:14:10,283 ] 45 networksecurity.logging.logger - INFO - code_utils save_object
+[ 2025-01-06 02:14:10,285 ] 50 networksecurity.logging.logger - INFO - save_object: File Saved in Pickle Format

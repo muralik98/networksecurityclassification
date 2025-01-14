@@ -1,6 +1,9 @@
-from networksecurity.entity.artifact_entity import ClassificationMetricArtifact
-from networksecurity.exception.exception import NetworkSecurityException
+from networksecurity.entity.artifacts_entity import ClassificationMetricArtifact
+from networksecurity.exception.CustomException import NetworkSecurityException
 from sklearn.metrics import f1_score,precision_score,recall_score
+from networksecurity.logging.logger import logger_function 
+
+logging = logger_function("Model_Trainer")
 import sys
 
 def get_classification_score(y_true,y_pred)->ClassificationMetricArtifact:
