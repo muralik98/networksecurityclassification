@@ -19,6 +19,8 @@ from sklearn.ensemble import AdaBoostClassifier, GradientBoostingClassifier, Ran
 import mlflow 
 from urllib.parse import urlparse 
 import dagshub
+token = os.getenv("DAGSHUB_API_KEY")
+dagshub.auth.add_app_token(token)
 dagshub.init(repo_owner='muralik98', repo_name='networksecurityclassification', mlflow=True)
 logging = logger_function("Model_Trainer")
 #os.environ["MLFLOW_TRACKING_URI"]=""

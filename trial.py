@@ -1,19 +1,8 @@
-from networksecurity.logging.logger import logger_function  
-from networksecurity.exception.CustomException import NetworkSecurityException  
+import dagshub
 
+# Add the token to the DagsHub authentication cache
+token = "4621a495f1943c8dc02291e5757947866bd85b9d"
+dagshub.auth.add_app_token(token)
 
-import sys 
-"""
-lf = logger_function('exec')
-
-lf.info('Hi Testing') 
-
-try:
-        lf.info("Enter the try block")
-        a=1/0
-        print("This will not be printed",a)
-except Exception as e:
-           lf.info(str(e))
-           raise NetworkSecurityException(e,sys)
-
-           """
+# Initialize the repository with the token cached
+dagshub.init(repo_owner='muralik98', repo_name='networksecurityclassification', mlflow=True)
